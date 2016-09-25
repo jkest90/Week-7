@@ -23,8 +23,8 @@
                 <button type="submit" class="btn btn-primary"> Load Countries</button>
             </form>
         <div class="col-xs-6">
-            <ul class="row" ng-repeat="prop in alpha.countries">
-                <li><strong>French Name:</strong> {{prop.frenchName}}</li>
+            <ul class="row" ng-repeat="prop in alpha.countries" ng-click="">
+                <li><strong>French Name:</strong> {{prop.frenchName}} <p>Travelled</p><input type="checkbox"></li>
                 <li><strong>Local Name:</strong> {{prop.localName}}</li>
                 <li><strong>Name:</strong> {{prop.name}}</li>
                 <li><strong>Region:</strong> {{prop.region}}</li>
